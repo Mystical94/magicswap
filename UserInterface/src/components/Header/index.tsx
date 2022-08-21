@@ -6,8 +6,8 @@ import { darken } from 'polished';
 import styled from 'styled-components';
 import { useTranslation } from 'react-i18next';
 
-import Logo from '../../assets/svg/logo.svg';
-import LogoDark from '../../assets/svg/logo.svg';
+import Logo from '../../assets/svg/logo.png';
+import LogoDark from '../../assets/svg/logo.png';
 import { useActiveWeb3React } from '../../hooks';
 import { useDarkModeManager } from '../../state/user/hooks';
 import { useETHBalances } from '../../state/wallet/hooks';
