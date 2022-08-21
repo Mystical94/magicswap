@@ -41,26 +41,26 @@ export function colors(darkMode: boolean): Colors {
     black,
 
     // text
-    text1: darkMode ? '#5F8FF5' : '#7493d8',
-    text2: darkMode ? '#884B9B' : '#a264b4',
-    text3: darkMode ? '#6C7284' : '#888D9B',
+    text1: darkMode ? '#fafafa' : '#d900ff',  //Swap, token display color
+    text2: darkMode ? '#ea00a6' : '#ea00a6',  //Slippage tolerance and balance color
+    text3: darkMode ? '#fafafa' : '#d900ff',  //Enter an amount
     text4: darkMode ? '#565A69' : '#C3C5CB',
-    text5: darkMode ? '#2C2F36' : '#EDEEF2',
+    text5: darkMode ? '#ea00a6' : '#EDEEF2',  
 
     // backgrounds / greys
     bg1: darkMode ? '#1d1f24' : '#fafafa', //SWAP CARD BACKGROUND
     bg2: darkMode ? '#27292e' : '#f1e9fc', //WHOLE BACKGROUND
-    bg3: darkMode ? '#3a3d47' : '#e6e6e8', //BUTTONS AND BORDER COLOR
-    bg4: darkMode ? '#4c4f5c' : '#CED0D9', //POPUP BORDER
-    bg5: darkMode ? '#6C7284' : '#888D9B',
+    bg3: darkMode ? '#d900ff' : '#e6e6e8', //BUTTONS AND BORDER COLOR
+    bg4: darkMode ? '#7b3fe4' : '#CED0D9', //POPUP BORDER
+    bg5: darkMode ? '#3a3d47' : '#888D9B',
 
     //specialty colors
     modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)', //MODAL BACKDROP COLOR
     advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.6)',
 
     //primary colors
-    primary1: '#d11ae6', //BACKGROUND BLURRY BACKGROUND
-    primary2: '#3099db',
+    primary1: '#ea00a6', //BACKGROUND BLURRY BACKGROUND
+    primary2: '#fafafa',
     primary3: '#389fe0',
     primary4: '#54afe8',
     primary5: '#5fb3e8',
@@ -69,7 +69,7 @@ export function colors(darkMode: boolean): Colors {
     primaryText1: darkMode ? '#fff' : '#000',
 
     // secondary colors
-    secondary1: '#3B6A9C',
+    secondary1: '#ea00a6',
     secondary2: darkMode ? '#17000b26' : '#F6DDE8',
     secondary3: darkMode ? '#17000b26' : '#FDEAF1',
 

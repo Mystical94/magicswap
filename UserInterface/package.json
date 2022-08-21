@@ -1,5 +1,5 @@
 {
-  "name": "name",
+  "name": "magicswap",
   "private": true,
   "license": "GPL-3.0-or-later",
   "devDependencies": {
@@ -37,6 +37,7 @@
     "@web3-react/portis-connector": "6.1.1",
     "@web3-react/walletconnect-connector": "6.1.4",
     "@web3-react/walletlink-connector": "6.2.0",
+    "0xsequence": "^0.40.2",
     "ajv": "6.12.6",
     "cids": "1.1.7",
     "copy-to-clipboard": "3.3.1",
