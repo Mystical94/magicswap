@@ -259,7 +259,7 @@ export default function Header() {
       <HeaderRow>
         <Title href=".">
           <Icon>
-            <img width={'24px'} src={darkMode ? LogoDark : Logo} alt="logo" />
+            <img width={'48px'} src={darkMode ? LogoDark : Logo} alt="logo" />
           </Icon>
         </Title>
       </HeaderRow>

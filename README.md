@@ -1,38 +1,113 @@
-# magicswap
-Decentralized Exchange(DEX) on Polygon(Matic) Blockchain
+# MagicSwap
+## Decentralized Exchange(DEX) on Polygon(Matic) Blockchain
 
-/*Address
-
-factory add: 0x4cab5791640c439d7aece517d70bfefca4b0fb6b
-
-init_code hash: 0x4a5cefaa44c12c532a01a824ec9a7d9b36839426cc47147282ce27fa33121fdd
-
-wmatic add: 0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889
-
-router add: 0x90d4e9eb792602aa7a7506b477b878307c35e24a
-
-muticall add: 0x3221ce4ade9a9564b34992a6d9dd35e38d3884c9
-
-*/
+If you wanna try some magic head over to:
 
 
-***********************************************
-polygon testnet
 
-rpc: https://rpc-mumbai.maticvigil.com
+## MagicSwap core contracts
+MagicSwap core contracts are the fork of [Uniswap V2](https://github.com/Uniswap/uniswap-v2-core)
 
-network id: 80001
+MagicSwap/Uniswap-V2 contracts are non-upgradeable and hence immutable in nature
 
-explorer: https://mumbai.polygonscan.com/
+In-depth documentation on Uniswap V2 is available at [uniswap.org](https://uniswap.org/docs).
 
-************************************************
+The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
 
-polygon mainnet
+# Addresses and Verified Source Code:
 
-rpc: https://polygon-rpc.com/
+Mumbai Testnet
+- MagicSwapFactory: https://mumbai.polygonscan.com/address/0x4cab5791640c439d7aece517d70bfefca4b0fb6b
+- MagicSwapRouter: https://mumbai.polygonscan.com/address/0x90d4e9eb792602aa7a7506b477b878307c35e24a
 
-network id: 137
+# Local Development
 
-explorer: https://polygonscan.com/
+The following assumes the use of `node@>=10`.
 
-*************************************************
+## Install Dependencies
+
+`yarn`
+
+## Compile Contracts
+
+`yarn compile`
+
+## Run Tests
+
+`yarn test`
+
+## Changes from Uniswap V2
+
+Not even a single line of code has been changed in the core contracts when compared with Uniswap V2. Hence no changelog.
+
+## MagicSwap periphery contracts
+
+This repository has been forked from [UniswapV2](https://github.com/Uniswap/uniswap-v2-periphery)
+
+# Local Development
+
+The following assumes the use of `node@>=10`.
+
+## Install Dependencies
+
+`yarn`
+
+## Compile Contracts
+
+`yarn compile`
+
+## Run Tests
+
+`yarn test`
+
+# MagicSwap Interface
+
+An open source interface for MagicSwap -- a protocol for decentralized exchange on Polygon.
+
+Enabling users to:
+
+- Add and remove their liquidity positions on MagicSwap protocol
+- Swap tokens on MagicSwap protocol
+
+Future Plans:
+
+- Add and remove their liquidity positions on MagicSwap protocol
+- Swap tokens on MagicSwap protocol
+
+## Deploying the MagicSwap on local machine
+
+Clone the repository
+
+move into the UserInterface Directory
+
+```sh
+cd UserInterface
+```
+
+install dependencies using **yarn** or **npm**
+
+```sh
+yarn
+
+or
+
+npm install
+```
+
+start the development server
+```sh
+yarn dev
+
+or
+
+npm start
+```
+
+build with production mode
+```sh
+yarn build
+
+or
+
+npm run build
+```
