@@ -14,13 +14,13 @@ In-depth documentation on Uniswap V2 is available at [uniswap.org](https://unisw
 
 The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
 
-# Addresses:
+## Addresses:
 
 Mumbai Testnet
 - MagicSwapFactory: https://mumbai.polygonscan.com/address/0x4cab5791640c439d7aece517d70bfefca4b0fb6b
 - MagicSwapRouter: https://mumbai.polygonscan.com/address/0x90d4e9eb792602aa7a7506b477b878307c35e24a
 
-# Local Development
+## Local Development
 
 The following assumes the use of `node@>=10`.
 
@@ -45,7 +45,7 @@ Not even a single line of code has been changed in the core contracts when compa
 This repository has been forked from [UniswapV2](https://github.com/Uniswap/uniswap-v2-periphery)
 
 
-# MagicSwap Interface
+## MagicSwap Interface
 
 An open source interface for MagicSwap -- a protocol for decentralized exchange on Polygon.
 
@@ -54,16 +54,17 @@ Enabling users to:
 - Add and remove their liquidity positions on MagicSwap protocol
 - Swap tokens on MagicSwap protocol
 
-Future Plans:
+## Future Plans:
 
 - Add a NFT airdrop for early adopters to give access to additional products to them
+- Add a game section in the dapp for new magicians so that they become an expert
 - Make it live on Polygon Mainnet
 
 ## Deploying the MagicSwap on local machine
 
 Clone the repository
 
-move into the UserInterface Directory
+Move into the UserInterface Directory
 
 ```sh
 cd UserInterface
@@ -96,3 +97,5 @@ or
 
 npm run build
 ```
+
+## MagicSwap is deployed on Spheron
