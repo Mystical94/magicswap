@@ -1,6 +1,8 @@
-import React, { useCallback, useContext } from 'react';
+import React, { useCallback } from 'react';
+//import React, { useCallback, useContext } from 'react';
 import { useDispatch } from 'react-redux';
-import styled, { ThemeContext } from 'styled-components';
+//import styled, { ThemeContext } from 'styled-components';
+import styled from 'styled-components';
 import { useActiveWeb3React } from '../../hooks';
 import { AppDispatch } from '../../state';
 import { clearAllTransactions } from '../../state/transactions/actions';
@@ -231,7 +233,7 @@ export default function AccountDetails({
   openOptions,
 }: AccountDetailsProps) {
   const { chainId, account, connector } = useActiveWeb3React();
-  const theme = useContext(ThemeContext);
+  //const theme = useContext(ThemeContext);
   const dispatch = useDispatch<AppDispatch>();
 
   function formatConnectorName() {
@@ -409,7 +411,7 @@ export default function AccountDetails({
         </LowerSection>
       ) : (
         <LowerSection>
-          <TYPE.body color={theme.text1}>Your transactions will appear here...</TYPE.body>
+          <TYPE.body color={'#03a5fc'}>Your transactions will appear here...</TYPE.body>
         </LowerSection>
       )}
     </>
