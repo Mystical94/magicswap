@@ -2,7 +2,7 @@
 ## Decentralized Exchange(DEX) on Polygon(Matic) Blockchain
 
 If you wanna try some magic head over to:
-
+http://magicswap-6aly9g.spheron.app/
 
 
 ## MagicSwap core contracts
@@ -14,7 +14,7 @@ In-depth documentation on Uniswap V2 is available at [uniswap.org](https://unisw
 
 The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@uniswap/v2-core@latest/).
 
-# Addresses and Verified Source Code:
+# Addresses:
 
 Mumbai Testnet
 - MagicSwapFactory: https://mumbai.polygonscan.com/address/0x4cab5791640c439d7aece517d70bfefca4b0fb6b
@@ -44,21 +44,6 @@ Not even a single line of code has been changed in the core contracts when compa
 
 This repository has been forked from [UniswapV2](https://github.com/Uniswap/uniswap-v2-periphery)
 
-# Local Development
-
-The following assumes the use of `node@>=10`.
-
-## Install Dependencies
-
-`yarn`
-
-## Compile Contracts
-
-`yarn compile`
-
-## Run Tests
-
-`yarn test`
 
 # MagicSwap Interface
 
@@ -71,8 +56,8 @@ Enabling users to:
 
 Future Plans:
 
-- Add and remove their liquidity positions on MagicSwap protocol
-- Swap tokens on MagicSwap protocol
+- Add a NFT airdrop for early adopters to give access to additional products to them
+- Make it live on Polygon Mainnet
 
 ## Deploying the MagicSwap on local machine
 
